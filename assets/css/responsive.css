@@ -112,10 +112,10 @@
     min-height: 100svh;         /* use small viewport height on mobile */
     align-items: center;
   }
-  #pipelineCanvas{
-      opacity: 0.15;
-  }
+  /* Animation behind hero content*/
   #pipelineCanvas {
+      opacity: 0.15;
+      pointer-events: none;
       position: absolute;
       right: 0;
       top: 0;

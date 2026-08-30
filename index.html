@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aditya Sharma — Azure Integration Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link rel="stylesheet" href="assets/css/responsive.css"/>
+</head>
+<body>
+<nav id="mainNav">
+  <div class="nav-logo">Azure<span>.</span>Dev</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#awards">Awards</a></li>
+  </ul>
+  <div class="nav-right">
+    <span class="theme-icon" id="themeIcon">🌙</span>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme"></button>
+  </div>
+  <button class="nav-hamburger" id="navHamburger" aria-label="Open menu">
+  <span></span><span></span><span></span>
+</button>
+<nav class="nav-drawer" id="navDrawer">
+  <button class="nav-drawer-close" id="navDrawerClose" aria-label="Close menu">&#x2715;</button>
+  <a href="#about">About</a>
+  <a href="#experience">Experience</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#awards">Awards</a>
+</nav>
+ 
+</nav>
+
+<section id="hero">
+  <canvas id="pipelineCanvas"></canvas>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Azure Integration Developer</div>
+    <h1 class="hero-name">Aditya<br/><span class="accent">Sharma</span></h1>
+    <p class="hero-title">
+      Building <strong>enterprise-grade integrations</strong> on the Microsoft Azure stack —<br/>
+      connecting systems, automating workflows, and modernising cloud infrastructure.
+    </p>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-num">3+</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">20+</span>
+        <span class="stat-label">Integrations Built</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">99%</span>
+        <span class="stat-label">System Uptime</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">4</span>
+        <span class="stat-label">Azure Certs</span>
+      </div>
+    </div>
+    <div class="hero-actions">
+      <a href="#about" class="btn-primary">About Me</a>
+      <a href="#contact" class="btn-outline">Get In Touch</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="page-section">
+  <div class="section-header reveal">
+    <span class="section-tag">01 — About Me</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="about-grid">
+    <div class="reveal">
+      <h2 class="section-title" style="margin-bottom:1.5rem">Connecting systems,<br/>at enterprise scale.</h2>
+      <div class="about-text">
+        <div class="story-slider" aria-live="polite">
+          <div class="story-slide is-active">
+            <p>My journey into cloud technology began in July 2024, when I had just secured an engineering role at Cognizant while still completing my bachelor's degree. By day, I was learning enterprise technologies and adapting to the expectations of a professional environment. By night, I was attending classes, preparing for exams, and working toward graduation. Balancing both worlds was far from easy, but it taught me discipline, resilience, and the value of continuous learning.</p>
+          </div>
+          <div class="story-slide">
+            <p>A few months later, I successfully completed my degree and finished my initial training at Cognizant. What started as a curiosity about cloud technologies quickly turned into a passion. I joined my team as an Azure Integration Developer and began contributing to real-world business solutions, learning something new with every project, challenge, and deployment.</p>
+          </div>
+          <div class="story-slide">
+            <p>Since then, I have had the opportunity to work on large-scale enterprise integrations, helping connect systems, automate processes, and deliver reliable cloud solutions. My experience spans event-driven architectures using <strong>Azure Service Bus &amp; Event Grid</strong>, data integration through <strong>Azure Data Factory</strong>, API governance with <strong>Azure API Management</strong>, and cloud-native development across the Microsoft Azure ecosystem.</p>
+          </div>
+          <div class="story-slide">
+            <p>Today, I continue to explore new frontiers in technology, including <strong>Azure OpenAI</strong>, AI Agents, Kusto Query Language (KQL), observability, and Infrastructure as Code. I believe the best engineers never stop learning, and I am committed to growing one step at a time while building solutions that create real value.</p>
+          </div>
+        </div>
+        <div class="story-nav" aria-label="Story navigation">
+          <button class="story-nav-btn story-nav-btn--prev" type="button" aria-label="Show previous paragraph">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <button class="story-nav-btn story-nav-btn--next" type="button" aria-label="Show next paragraph">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="reveal">
+      <div class="profile-card">
+        <div class="profile-avatar-wrap">
+          <img src="assets/images/profile2.PNG" alt="Aditya Sharma" class="profile-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"/>
+          <div class="profile-initials" style="display:none">AP</div>
+          <div class="profile-glow"></div>
+        </div>
+        <div class="profile-name">Aditya Sharma</div>
+        <div class="profile-role">Azure Integration Developer @ Cognizant</div>
+        <!--<div class="profile-badges">
+          <span class="profile-badge">AZ-204</span>
+          <span class="profile-badge">AI-900</span>
+          <span class="profile-badge">AZ-900</span>
+          <span class="profile-badge">GH-300</span>
+        </div>-->
+        <a href="assets/documents/Aditya-Sharma-Resume.pdf" download class="resume-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Resume
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="page-section">
+  <div class="section-header reveal">
+    <span class="section-tag">02 — Experience</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="exp-card reveal">
+    <div class="exp-header">
+      <div>
+        <div class="exp-company">Cognizant Technology Solutions</div>
+        <div class="exp-role">Azure Integration Developer — Programmer Analyst</div>
+      </div>
+      <div class="exp-period">Sept 2024 → Present · Noida</div>
+    </div>
+    <ul class="exp-achievements">
+      <li>Designed and developed <strong>20+ enterprise integrations</strong> using Azure services, enabling seamless system-to-system communication.</li>
+      <li>Delivered <strong>30+ enhancements</strong>, bug fixes, and production releases, improving performance and scalability.</li>
+      <li>Built and maintained data integration, transformation, and orchestration workflows, automating critical business processes.</li>
+      <li>Managed production support and incident resolution, maintaining <strong>99%+ system availability</strong>.</li>
+      <li>Implemented and maintained <strong>CI/CD pipelines</strong> using Azure DevOps, streamlining deployments and release quality.</li>
+      <li>Collaborated with international stakeholders to translate business requirements into scalable cloud solutions in <strong>Agile/Scrum</strong>.</li>
+      <li>Utilised JIRA, ServiceNow, and Azure Boards for project tracking, sprint planning, and delivery coordination.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills" class="page-section">
+  <div class="section-header reveal">
+    <span class="section-tag">03 — Skills</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-group reveal">
+      <div class="skill-group-header"><span class="skill-group-icon">☁️</span><span class="skill-group-name">Azure Web Services</span></div>
+      <div class="skill-tags">
+        <span class="skill-tag">Function App</span><span class="skill-tag">Logic App</span><span class="skill-tag">Service Bus</span>
+        <span class="skill-tag">Event Hub</span><span class="skill-tag">Event Grid</span><span class="skill-tag">Web App Services</span>
+        <span class="skill-tag">API Management</span><span class="skill-tag">REST APIs</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-header"><span class="skill-group-icon">🗄️</span><span class="skill-group-name">Azure Data Services</span></div>
+      <div class="skill-tags">
+        <span class="skill-tag">Data Factory</span><span class="skill-tag">SQL Database</span>
+        <span class="skill-tag">Blob Storage</span><span class="skill-tag">Storage SFTP</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-header"><span class="skill-group-icon">🔒</span><span class="skill-group-name">Security & Monitoring</span></div>
+      <div class="skill-tags">
+        <span class="skill-tag">Key Vault</span><span class="skill-tag">Managed Identity</span><span class="skill-tag">RBAC</span>
+        <span class="skill-tag">Log Analytics</span><span class="skill-tag">App Insights</span><span class="skill-tag">Grafana</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-header"><span class="skill-group-icon">⚙️</span><span class="skill-group-name">.NET & Languages</span></div>
+      <div class="skill-tags">
+        <span class="skill-tag">C#</span><span class="skill-tag">.NET</span><span class="skill-tag">.NET MVC</span>
+        <span class="skill-tag">Web API</span><span class="skill-tag">ADO.NET</span><span class="skill-tag">Entity Framework</span><span class="skill-tag">SQL</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-header"><span class="skill-group-icon">🔄</span><span class="skill-group-name">DevOps & IaC</span></div>
+      <div class="skill-tags">
+        <span class="skill-tag">Azure DevOps</span><span class="skill-tag">Git</span><span class="skill-tag">CI/CD</span>
+        <span class="skill-tag">YAML Pipelines</span><span class="skill-tag">ARM</span><span class="skill-tag">Bicep</span><span class="skill-tag">Terraform</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-header"><span class="skill-group-icon">📄</span><span class="skill-group-name">Templates & Formats</span></div>
+      <div class="skill-tags">
+        <span class="skill-tag">JSON</span><span class="skill-tag">XML</span><span class="skill-tag">Liquid Template</span>
+        <span class="skill-tag">REST/SOAP</span><span class="skill-tag">GS1 XML</span><span class="skill-tag">CSV Transform</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-header"><span class="skill-group-icon">🛠️</span><span class="skill-group-name">Tools & IDEs</span></div>
+      <div class="skill-tags">
+        <span class="skill-tag">Postman</span><span class="skill-tag">Swagger</span><span class="skill-tag">JIRA</span>
+        <span class="skill-tag">ServiceNow</span><span class="skill-tag">VS 2022</span><span class="skill-tag">VS Code</span><span class="skill-tag">Azure Data Studio</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="page-section">
+  <div class="section-header reveal">
+    <span class="section-tag">04 — Professional Projects</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-client">Client: Whitbread</div>
+      <div class="project-name">Hotel/Mobile Keys Integration</div>
+      <p class="project-desc">TODO:Transition of Whitbread's UK supply chain from GXO to Bidfood. A synchronous Azure integration transferring food &amp; drink orders, acknowledgements, and receipts from 950+ hotels.</p>
+      <div class="project-services">
+        <span class="project-service">Azure Web App</span><span class="project-service">Function App</span>
+        <span class="project-service">Logic App</span><span class="project-service">Blob Storage</span>
+        <span class="project-service">Service Bus</span><span class="project-service">Log Analytics</span>
+      </div>
+      <ul class="project-highlights">
+        <li>TODO:Core transformation logic (TXT → GS1 XML) via Azure Function App</li>
+        <li>TODO:HTTPS AS2 order transfer using Service Bus, Storage &amp; Logic Apps</li>
+        <li>TODO:Custom log ingestion in Log Analytics with automated alert rules</li>
+      </ul>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-client">Client: Whitbread</div>
+      <div class="project-name">People Programme - HR Management System</div>
+      <p class="project-desc">TODO:A reusable Azure Data Factory solution to automate secure data and file transfers between internal systems and vendors — surpassing legacy FTP solutions with advanced security and observability.</p>
+      <div class="project-services">
+        <span class="project-service">Azure Data Factory</span><span class="project-service">SQL Database</span>
+        <span class="project-service">Function App</span><span class="project-service">Logic App</span>
+        <span class="project-service">Blob Storage</span><span class="project-service">Log Analytics</span>
+      </div>
+      <ul class="project-highlights">
+        <li>TODO:ADF pipelines dynamically copying files between SFTP servers</li>
+        <li>TODO:Azure SQL for runtime pipeline configuration and control</li>
+        <li>TODO:Function App for credential-aware trigger + log ingestion</li>
+      </ul>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-client">Client: Whitbread</div>
+      <div class="project-name">Bulk Update Tool</div>
+      <p class="project-desc">TODO:Azure Web API to fetch booking reservation data from the Customer Data Hub when invoked from AWS Connect's Agent Workspace, used by Whitbread's contact centre teams.</p>
+      <div class="project-services">
+        <span class="project-service">Azure Web API</span><span class="project-service">API Management</span>
+        <span class="project-service">Durable Functions</span><span class="project-service">Logic App</span>
+        <span class="project-service">App Insights</span><span class="project-service">Key Vault</span>
+      </div>
+      <ul class="project-highlights">
+        <li>TODO:.NET 10 Web API hosted on Azure API Management</li>
+        <li>TODO:Bearer token &amp; Subscription key for authentication</li>
+        <li>TODO:Dynamic API versioning for future-proofing</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section id="opensource" class="page-section">
+  <div class="section-header reveal">
+    <span class="section-tag">05 — Open Source</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="repos-grid">
+ <!--
+    <a class="repo-card reveal" href="https://github.com/GetParvezGit/azure-loganalytics-ingestion-function" target="_blank" rel="noopener">
+      <div class="repo-header">
+        <span class="repo-icon">📊</span>
+        <span class="repo-name">azure-loganalytics-ingestion-function</span>
+      </div>
+      <p class="repo-desc">Logs JSON payloads into Azure Log Analytics custom tables using Data Collection Rules (DCR) and Data Collection Endpoints (DCE). Includes a reusable <code>LogIngestionHelper</code> library with service-to-service auth.</p>
+      <div class="repo-footer">
+        <span class="repo-lang"><span class="lang-dot"></span>C#</span>
+        <span class="repo-link">⭐ 1 &nbsp;→ View</span>
+      </div>
+    </a>
+ 
+    <a class="repo-card reveal" href="https://github.com/GetParvezGit/azure-encryption-decryption-function" target="_blank" rel="noopener">
+      <div class="repo-header">
+        <span class="repo-icon">🔐</span>
+        <span class="repo-name">azure-encryption-decryption-function</span>
+      </div>
+      <p class="repo-desc">Secure PGP-based encryption and decryption solution built with Azure Functions and C#. Accepts payloads via HTTP, encrypts with a PGP public key, and decrypts with a private key — ideal for secure file exchange pipelines.</p>
+      <div class="repo-footer">
+        <span class="repo-lang"><span class="lang-dot"></span>C#</span>
+        <span class="repo-link">⭐ 1 &nbsp;→ View</span>
+      </div>
+    </a>
+ 
+    <a class="repo-card reveal" href="https://github.com/GetParvezGit/azure-sftp-connector-function" target="_blank" rel="noopener">
+      <div class="repo-header">
+        <span class="repo-icon">📂</span>
+        <span class="repo-name">azure-sftp-connector-function</span>
+      </div>
+      <p class="repo-desc">Connects to SFTP servers via Basic and SSH Key authentication to Get, Read, Write, and Delete files. Built with Renci.SshNet and WinSCP — a drop-in Azure Function for any file-transfer integration.</p>
+      <div class="repo-footer">
+        <span class="repo-lang"><span class="lang-dot"></span>C#</span>
+        <span class="repo-link">→ View</span>
+      </div>
+    </a>
+ 
+    <a class="repo-card reveal" href="https://github.com/GetParvezGit/azure-cost-report-generator" target="_blank" rel="noopener">
+      <div class="repo-header">
+        <span class="repo-icon">💰</span>
+        <span class="repo-name">azure-cost-report-generator</span>
+      </div>
+      <p class="repo-desc">Collects Resource Group consumption data using Azure Cost Management APIs, applies custom naming and normalisation logic, and generates structured cost reports — great for FinOps automation.</p>
+      <div class="repo-footer">
+        <span class="repo-lang"><span class="lang-dot"></span>C#</span>
+        <span class="repo-link">→ View</span>
+      </div>
+    </a>
+ 
+    <a class="repo-card reveal" href="https://github.com/GetParvezGit/azure-protected-zip-generator" target="_blank" rel="noopener">
+      <div class="repo-header">
+        <span class="repo-icon">🗜️</span>
+        <span class="repo-name">azure-protected-zip-generator</span>
+      </div>
+      <p class="repo-desc">Automates the creation of password-protected ZIP archives from files in Azure Blob Storage. The encrypted ZIP is uploaded back to Blob Storage — perfect for secure vendor file delivery workflows.</p>
+      <div class="repo-footer">
+        <span class="repo-lang"><span class="lang-dot"></span>C#</span>
+        <span class="repo-link">→ View</span>
+      </div>
+    </a>
+ 
+    <a class="repo-card reveal" href="https://github.com/GetParvezGit/azure-otp-generator-webapp" target="_blank" rel="noopener">
+      <div class="repo-header">
+        <span class="repo-icon">📧</span>
+        <span class="repo-name">azure-otp-generator-webapp</span>
+      </div>
+      <p class="repo-desc">Generates a 6-digit OTP, sends it to the user's registered email with a 5-minute expiry, and redirects to a Welcome page only after successful verification — a full MFA flow on Azure.</p>
+      <div class="repo-footer">
+        <span class="repo-lang"><span class="lang-dot"></span>C#</span>
+        <span class="repo-link">→ View</span>
+      </div>
+    </a>
+  -->
+  </div>
+</section>
+
+<section id="awards" class="page-section">
+  <div class="section-header reveal">
+    <span class="section-tag">06 — Awards</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="awards-grid">
+    <!--
+    <div class="award-card reveal">
+      <div class="award-icon">🏆</div>
+      <div>
+        <div class="award-name">Bluebolt Excellence Award 2025 — Best Team Innovation</div>
+        <div class="award-org">Cognizant · File Transfer Engine Integration</div>
+      </div>
+    </div>
+    <div class="award-card reveal">
+      <div class="award-icon">🥉</div>
+      <div>
+        <div class="award-name">Cheers Bronze Award</div>
+        <div class="award-org">Cognizant · Supply Chain Integration Success</div>
+      </div>
+    </div>-->
+    <div class="award-card reveal">
+      <div class="award-icon">⭐</div>
+      <div>
+        <div class="award-name">Cheers Award — Year-End Performance</div>
+        <div class="award-org">Cognizant · Annual Recognition</div>
+      </div>
+    </div>
+    <div class="award-card reveal">
+      <div class="award-icon">🛡️</div>
+      <div>
+        <div class="award-name">Cheers Award — Production Support Reliability</div>
+        <div class="award-org">Cognizant · Operational Excellence</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="page-section">
+  <div class="contact-inner">
+    <div class="section-header reveal" style="justify-content:center; margin-bottom:1.5rem">
+      <span class="section-tag">07 — Contact</span>
+    </div>
+    <h2 class="section-title reveal" style="margin-bottom:1rem">Let's build something together.</h2>
+    <p class="contact-subtitle reveal">Open to Azure integration roles, cloud architecture projects, and enterprise integration consulting. Based in Noida — available for remote and hybrid engagements.</p>
+    <div class="contact-links reveal">
+      <a href="mailto:aadi.sharma1107@gmail.com" class="contact-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        Hire Me
+      </a>
+      <a href="tel:7000895862" class="contact-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.72 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.63 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9.91A16 16 0 0 0 14 15.98l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call Me
+      </a>
+      <a href="https://linkedin.com/in/adityasharma110" class="contact-link" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/adityasharma1107" class="contact-link" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Aditya Sharma</span>
+  <span>Built with care · Noida, India</span>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/animations.js"></script>
+</body>
+</html>

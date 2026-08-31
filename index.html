@@ -10,7 +10,7 @@
 </head>
 <body>
 <nav id="mainNav">
-  <div class="nav-logo">Azure<span>.</span>Dev</div>
+  <div class="nav-logo">Aditya <span>|</span> Cloud Engineer</div>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#experience">Experience</a></li>
@@ -47,7 +47,7 @@
     </p>
     <div class="hero-stats">
       <div class="stat-item">
-        <span class="stat-num">3+</span>
+        <span class="stat-num">2+</span>
         <span class="stat-label">Years Experience</span>
       </div>
       <div class="stat-item">
@@ -205,7 +205,7 @@
       <div class="skill-group-header"><span class="skill-group-icon">🛠️</span><span class="skill-group-name">Tools & IDEs</span></div>
       <div class="skill-tags">
         <span class="skill-tag">Postman</span><span class="skill-tag">Swagger</span><span class="skill-tag">JIRA</span>
-        <span class="skill-tag">ServiceNow</span><span class="skill-tag">VS 2022</span><span class="skill-tag">VS Code</span><span class="skill-tag">Azure Data Studio</span>
+        <span class="skill-tag">ServiceNow</span><span class="skill-tag">VS 2022</span><span class="skill-tag">VS 2026</span><span class="skill-tag">VS Code</span><span class="skill-tag">Azure Data Studio</span>
       </div>
     </div>
   </div>
@@ -219,47 +219,48 @@
   <div class="projects-grid">
     <div class="project-card reveal">
       <div class="project-client">Client: Whitbread</div>
-      <div class="project-name">Hotel/Mobile Keys Integration</div>
-      <p class="project-desc">TODO:Transition of Whitbread's UK supply chain from GXO to Bidfood. A synchronous Azure integration transferring food &amp; drink orders, acknowledgements, and receipts from 950+ hotels.</p>
+      <div class="project-name">Mobile &amp; Digital Keys Integration Platform</div>
+      <p class="project-desc">Designed and delivered a business-critical, event-driven digital key management platform that seamlessly integrates the Alliants AXP mobile application with Dormakaba's Ambiance platform, enabling creation, retrieval, and revocation of mobile room keys across 100+ hotels in the United Kingdom. The solution significantly enhanced the guest experience by providing secure, near real-time digital access to hotel rooms.</p>
       <div class="project-services">
         <span class="project-service">Azure Web App</span><span class="project-service">Function App</span>
         <span class="project-service">Logic App</span><span class="project-service">Blob Storage</span>
         <span class="project-service">Service Bus</span><span class="project-service">Log Analytics</span>
       </div>
       <ul class="project-highlights">
-        <li>TODO:Core transformation logic (TXT → GS1 XML) via Azure Function App</li>
-        <li>TODO:HTTPS AS2 order transfer using Service Bus, Storage &amp; Logic Apps</li>
-        <li>TODO:Custom log ingestion in Log Analytics with automated alert rules</li>
+        <li>Built Azure Web APIs to manage digital key creation, retrieval, and revocation between AXP and Dormakaba Ambiance.</li>
+        <li>Integrated OHIP APIs for real-time guest reservation validation and secure key issuance.</li>
+        <li>Implemented custom logging, monitoring, and automated alerting using Azure Log Analytics.</li>
+        <li>Developed Azure Function-based webhooks to process real-time key events and notifications across 100+ UK hotels.</li>
       </ul>
     </div>
     <div class="project-card reveal">
       <div class="project-client">Client: Whitbread</div>
-      <div class="project-name">People Programme - HR Management System</div>
-      <p class="project-desc">TODO:A reusable Azure Data Factory solution to automate secure data and file transfers between internal systems and vendors — surpassing legacy FTP solutions with advanced security and observability.</p>
+      <div class="project-name">People Programme System</div>
+      <p class="project-desc">Designed and delivered a cloud-based integration middleware for Whitbread's Dayforce HR platform, enabling secure and reliable data exchange between Dayforce and multiple third-party employee service providers, including Micros, TravelPerk, and Aviva. The solution incorporates file validation, transformation, encryption, and SLA-driven processing to ensure accurate and timely delivery of employee data.</p>
       <div class="project-services">
         <span class="project-service">Azure Data Factory</span><span class="project-service">SQL Database</span>
         <span class="project-service">Function App</span><span class="project-service">Logic App</span>
         <span class="project-service">Blob Storage</span><span class="project-service">Log Analytics</span>
       </div>
       <ul class="project-highlights">
-        <li>TODO:ADF pipelines dynamically copying files between SFTP servers</li>
-        <li>TODO:Azure SQL for runtime pipeline configuration and control</li>
-        <li>TODO:Function App for credential-aware trigger + log ingestion</li>
+        <li>Developed Azure Logic Apps and Azure Functions for file transformation, validation, encryption, and integration workflows across multiple vendor systems.</li>
+        <li>Leveraged Azure SQL Database to manage runtime configurations, integration controls, and operational workflow parameters.</li>
+        <li>Automated the delivery of employee master data and employment status updates to Dayforce through scalable Logic App-based pipelines.</li>
       </ul>
     </div>
     <div class="project-card reveal">
       <div class="project-client">Client: Whitbread</div>
-      <div class="project-name">Bulk Update Tool</div>
-      <p class="project-desc">TODO:Azure Web API to fetch booking reservation data from the Customer Data Hub when invoked from AWS Connect's Agent Workspace, used by Whitbread's contact centre teams.</p>
+      <div class="project-name">SmartKey Dropbox</div>
+      <p class="project-desc">Implemented a smart key return integration across 100+ UK hotels, enabling automated guest checkout through SmartKey Dropbox devices. The solution processes physical key card return events and seamlessly triggers guest checkout workflows, improving operational efficiency and guest experience.</p>
       <div class="project-services">
-        <span class="project-service">Azure Web API</span><span class="project-service">API Management</span>
-        <span class="project-service">Durable Functions</span><span class="project-service">Logic App</span>
+        <span class="project-service">Azure Function Apps</span><span class="project-service">API Management</span>
+        <span class="project-service">Service Bus Queue</span><span class="project-service">Blob Storage</span>
         <span class="project-service">App Insights</span><span class="project-service">Key Vault</span>
       </div>
       <ul class="project-highlights">
-        <li>TODO:.NET 10 Web API hosted on Azure API Management</li>
-        <li>TODO:Bearer token &amp; Subscription key for authentication</li>
-        <li>TODO:Dynamic API versioning for future-proofing</li>
+        <li>Developed Azure Function Apps to process SmartKey Dropbox webhook events and automate guest checkout workflows.</li>
+        <li>Bearer token &amp; Subscription key for authentication</li>
+        <li>Leveraged Azure Blob Storage and Azure Service Bus for reliable event storage, messaging, and asynchronous data processing.</li>
       </ul>
     </div>
   </div>
@@ -270,19 +271,18 @@
     <div class="section-line"></div>
   </div>
   <div class="repos-grid">
- <!--
-    <a class="repo-card reveal" href="https://github.com/GetParvezGit/azure-loganalytics-ingestion-function" target="_blank" rel="noopener">
+    <a class="repo-card reveal" href="https://github.com/adityasharma1107" target="_blank" rel="noopener">
       <div class="repo-header">
         <span class="repo-icon">📊</span>
-        <span class="repo-name">azure-loganalytics-ingestion-function</span>
+        <span class="repo-name">placeholder-project-v1</span>
       </div>
-      <p class="repo-desc">Logs JSON payloads into Azure Log Analytics custom tables using Data Collection Rules (DCR) and Data Collection Endpoints (DCE). Includes a reusable <code>LogIngestionHelper</code> library with service-to-service auth.</p>
+      <p class="repo-desc"> A short description of the project - Encrypting PSV data into the base64 string using Aes256 <code>CodeClass</code> Done and delivered withing the deadline. </p>
       <div class="repo-footer">
         <span class="repo-lang"><span class="lang-dot"></span>C#</span>
         <span class="repo-link">⭐ 1 &nbsp;→ View</span>
       </div>
     </a>
- 
+ <!--
     <a class="repo-card reveal" href="https://github.com/GetParvezGit/azure-encryption-decryption-function" target="_blank" rel="noopener">
       <div class="repo-header">
         <span class="repo-icon">🔐</span>
